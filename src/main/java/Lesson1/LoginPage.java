@@ -20,7 +20,7 @@ public class LoginPage {
         PageFactory.initElements(driver,this);
 
     }
-    public  void loginInSystem(String login1,String password1){
+    public void loginInSystem(String login1,String password1){
         loginField.sendKeys(login1);
         passwordField.sendKeys(password1);
         button.click();
