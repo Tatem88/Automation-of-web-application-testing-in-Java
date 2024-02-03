@@ -15,11 +15,12 @@
         <surefire.version>2.22.2</surefire.version>
     </properties>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.12.1</version>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide-junit4</artifactId>
+            <version>7.0.6</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
